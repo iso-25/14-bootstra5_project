@@ -68,7 +68,7 @@ body {
 }
 
 .header__ul {
-  gap: var(--nav-ul-gap);
+  /* gap: var(--nav-ul-gap); */
 }
 
 .header__a {
