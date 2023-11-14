@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap 5</title>
+</head>
+
+<body>
+    <div class="container-fluid justify-content-center alivio-wrapper">
+        <!-- header -->
+        <header class="header inner-container container-fluid">
+            <nav class="navbar w-100 flex-row navbar-light px-4 py-3">
+                <div class="row w-100 gx-5 header__container flex-nowrap">
+                    <!-- logo -->
+                    <div class="col-2 d-flex justify-content-start header__logo">
+                        <img src="./img/logo.svg" alt="logo" class="float-start img-fluid">
+                    </div>
+
+                    <!-- nav -->
+                    <div class="col-7 d-flex justify-content-center align-items-center header__nav">
+                        <label for="headerCheckbox" class="menu-back header__menu-back">
+                            <span class="material-icons header__icon-back">arrow_back</span>
+                        </label>
+                        <ul class="navbar-nav flex-row text-decoration-none text-nowrap header__ul">
+                            <li class="nav-item header__li"><a href="/" class="nav-link header__a">Why
+                                    Alivio</a></li>
+                            <li class="nav-item header__li"><a href="/" class="nav-link header__a">Solutions</a>
+                            </li>
+                            <li class="nav-item header__li"><a href="/" class="nav-link header__a">Community</a>
+                            </li>
+                            <li class="nav-item header__li"><a href="/" class="nav-link header__a">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- btn -->
+                    <div class="col-3 d-flex justify-content-end text-nowrap header__btn">
+                        <a href="/" class="btn btn_link header__btn_link">Sign in</a>
+                        <a href="/" class="btn btn_primary header__btn_primary">Start Trial</a>
+                    </div>
+
+                    <input class="header__chk" id="headerCheckbox" type="checkbox">
+                    <label for="headerCheckbox" class="col justify-content-end m-0 p-0 menu-burger header__menu-burger">
+                        <span class="material-icons header__icon-menu">menu</span>
+                    </label>
+
+                </div>
+
+            </nav>
+
+        </header>
+
+        <!-- main-section -->
+        <div class="main inner-container container-fluid">
+            <div class="row flex-column-reverse flex-sm-row main__section">
+                <div class="col d-flex justify-content-start align-items-center py-5">
+                    <div class="container-fluid p-1 m-3 w-75  main__info">
+                        <h1 class="titles w-75 main__title">Be aware,
+                            Manage well.</h1>
+                        <p class="desc w-75 main__desc">Everyone experiences stress in different ways.
+                            Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+                        <a class="btn btn_primary btn_sections main__btn">Find Your Way</a>
+
+                    </div>
+
+                </div>
+                <div class="col main__img">
+                    <img src="./img/main-section-bg.png" alt="Main" class="float-end img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
